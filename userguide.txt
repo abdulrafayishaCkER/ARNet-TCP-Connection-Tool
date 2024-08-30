@@ -1,10 +1,10 @@
 Introduction
 
-ARNet is a Netcat-like tool developed by Abdul Rafay, designed to establish bind or reverse TCP connections. This user guide explains how to use ARNet, its features, and its working.
+ARNet is a Netcat-like tool developed by Abdul Rafay, designed to establish TCP connection. This user guide explains how to use ARNet, its features, and its working.
 
 Features
 
-    Establishes bind or reverse TCP connections
+    Establishes TCP connection
     Allows remote command execution
     Enables file transfer between the client and server
 
@@ -26,10 +26,7 @@ Commands
     exit: Exits the client and closes the connection.
     Any other command: Will be executed on the client's shell and the output will be sent back to the server.
 
-File Transfer
 
-    To transfer a file from the client to the server, use the send command followed by the file path.
-    To transfer a file from the server to the client, use the recv command followed by the file path.
 
 Working
 
